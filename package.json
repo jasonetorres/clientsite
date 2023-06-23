@@ -1,0 +1,24 @@
+{
+  "name": "clientsite",
+  "version": "1.0.0",
+  "description": "first draft woozy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonetorres/clientsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonetorres/clientsite/issues"
+  },
+  "homepage": "https://github.com/jasonetorres/clientsite#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "express": "^4.18.2"
+  }
+}
