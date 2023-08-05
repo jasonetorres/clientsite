@@ -91,6 +91,9 @@
 }
 
 @media (max-width: 360px) {
+  body{
+    width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
