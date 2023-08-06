@@ -6,12 +6,24 @@
   .hero_btn-box {
     margin-bottom: 150px;
   }
+  #map {
+    height: 600px;
+    width: 250px;
+  }
 }
 
 @media (max-width: 992px) {
   .custom_nav-container {
     flex-direction: row;
   }
+  /* makes map thinner to avoid overflowing page at this width */
+  #map {
+    height: 600px;
+    width:300px;
+}
+.navbar-brand span {
+  font-size: 20px;
+}
 }
 
 @media (max-width: 768px) {
@@ -43,6 +55,11 @@
   .client_section .carousel-indicators {
     justify-content: center;
   }
+  /* makes map wider again now the page is a single column */
+  #map {
+    height: 600px;
+    width:400px;
+}
 }
 
 @media (max-width: 576px) {
@@ -79,6 +96,10 @@
   .client_section .detail_box h5 {
     flex-direction: row;
   }
+  #map {
+    height: 600px;
+    width: 400px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -100,4 +121,8 @@
   .container {
     max-width: 1170px;
   }
+  #map {
+    height: 600px;
+    width:600px;
+}
 }
