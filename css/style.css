@@ -124,7 +124,7 @@ a:focus {
 .navbar-brand:hover {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 24px;
+  /* font-size: 24px; */
   color: #fafcfd;
 }
 
@@ -608,7 +608,7 @@ a:focus {
 }
 
 .info_items .item .img-box {
-  width: 50px;
+  /*width: 50px;*/
   border-radius: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -678,7 +678,7 @@ a:focus {
   background-image: url("images/newsleaves.png");
 }
 .back-to-top {
-  display: ;
+  /*display: ;*/
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -746,6 +746,8 @@ a:focus {
 #map {
   height: 600px;
   width: 700px;
+    /* max-width: 300px; */
+  /* width: 100%; */
 }
 
 
