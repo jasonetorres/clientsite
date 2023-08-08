@@ -16,14 +16,6 @@
   .custom_nav-container {
     flex-direction: row;
   }
-    /* makes map thinner to avoid overflowing page at this width */
-    #map {
-      height: 600px;
-      width:300px;
-  }
-  .navbar-brand span {
-    font-size: 20px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -54,11 +46,6 @@
 
   .client_section .carousel-indicators {
     justify-content: center;
-  }
-    /* makes map wider again now the page is a single column */
-    #map {
-      height: 600px;
-      width:400px;
   }
 }
 
@@ -121,4 +108,8 @@
   .container {
     max-width: 1170px;
   }
+  #map {
+    height: 600px;
+    width:600px;
+}
 }
