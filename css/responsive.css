@@ -50,6 +50,7 @@
 }
 
 @media (max-width: 576px) {
+
   .hero_section h1 {
     font-size: 58px;
   }
@@ -102,7 +103,6 @@
   body{
     width: 100%;
   }
-}
 
 @media (min-width: 1200px) {
   .container {
